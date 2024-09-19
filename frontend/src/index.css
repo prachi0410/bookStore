@@ -1,0 +1,58 @@
+/* Light Theme Styles */
+body {
+        background-color: white;
+        color: black;
+}
+      
+/* Dark Theme Styles */
+.dark body {
+background-color: rgb(36, 31, 31);
+color: white;
+input{
+        background-color: rgb(36, 31, 31);
+        color: white; 
+}
+.footer{
+        background-color: rgb(36, 31, 31);
+        color: white;
+}
+.main-nav.active{
+        background-color: rgb(46, 41, 41);
+input{
+        background-color: rgb(46, 41, 41);
+}
+}
+.login{
+        background-color: white;
+        color: black;
+        border: none;
+}
+.hcca-column{
+        background-color: rgb(36,31,31);
+}
+.menu{
+        color: white;
+}
+.menu.active{
+        color: rgb(212, 209, 206);
+}
+.bookimage{
+        background-color: rgb(36, 31, 31);
+}
+.signup-page{
+        h2,label{
+          color: black;
+        }
+}
+.card{
+        box-shadow: rgba(255, 255, 255, 0.16) 0px 3px 6px, rgba(255, 255, 255, 0.23) 0px 3px 6px;
+}
+.signup-page{
+        box-shadow: rgba(203, 199, 199, 0.19) 0px 10px 20px, rgba(188, 186, 186, 0.13) 0px 6px 6px;
+
+}
+textarea{
+        background-color:rgb(36, 31, 31);
+}
+}
+     
