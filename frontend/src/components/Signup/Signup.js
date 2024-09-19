@@ -23,7 +23,7 @@ const onSubmit = async(data) => {
     password:data.password,
     cpassword:data.cpassword
   }
-  await axios.post("http://localhost:4000/user/signup",userInfo)
+  await axios.post("https://bookstore-backend-yb8l.onrender.com/user/signup",userInfo)
    .then((res)=>{
     console.log(res.data)
     if(res.data){
